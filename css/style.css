@@ -1,0 +1,90 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.card {
+	max-width: 435px;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.card__product {
+	background-color: #65955D;
+	position: relative;
+}
+
+.card__img {
+	width: 100%;
+	height: 100%;
+}
+
+.card__img img {
+	width: 100%;
+	height: 100%;
+
+}
+.lovely__img {
+	position: absolute;
+	top: 9px;
+	right: 19px;
+	
+}
+
+.card__content {
+	display: flex;
+	flex-direction: column;
+	padding: 32px 18px;
+}
+
+.card__price {
+	display: flex;
+	align-items: center;
+	font-size: 48px;
+	font-weight: 600;
+
+}
+
+.card__price-dollar {
+	font-size: 32px;
+	font-weight: 400;
+	margin-right: 8px;
+}
+
+.card__price-cent {
+	font-size: 28px;
+	font-weight: 400;
+	align-self: flex-start;
+	margin-left: 8px;
+}
+
+.card__name {
+	margin-top: 8px;
+	color: #414141;
+	font-size: 34px;
+}
+
+.card__text {
+	font-size: 18px;
+	font-weight: 500;
+	color: #414141;
+	margin-top: 8px;
+}
+
+.card__button {
+	width: 100%;
+	padding: 25px 16px;
+	background-color: #3483FA;
+	border-radius: 4px;
+	font-size: 34px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 16px;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
